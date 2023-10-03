@@ -1,0 +1,306 @@
+.vertical-line {
+  border-left: 1px ridge #848282;
+  height: 34px;
+}
+header {
+  width: 100vw;
+  height: auto;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+#accio-name {
+  color: #012555;
+  font-family: Bai Jamjuree;
+  font-size: 21.714px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 175% */
+  letter-spacing: -0.869px;
+  text-align: center;
+}
+.course-list > ul {
+  list-style-type: none;
+}
+.course-list > ul > li {
+  color: var(--Gray-2, #373737);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24.8px;
+  letter-spacing: 0.16px;
+  padding-inline: 13px;
+  box-sizing: border-box;
+}
+.Announcement {
+  height: auto;
+  color: #fff;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.28px;
+}
+#main_hero {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-around;
+}
+#hero-left {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 35px;
+  background-color: aqua;
+  box-sizing: border-box;
+}
+.hl1 {
+  color: var(--BLACK, #2b2f34);
+
+  margin: 0px;
+}
+.hl2 {
+  color: var(--primaryskyblue, #2f80ed);
+}
+.hl1,
+.hl2,
+.hl3 {
+  font-family: ABeeZee;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%; /* 65px */
+  letter-spacing: -0.75px;
+}
+.hl3 {
+  color: var(--BLACK, #2b2f34);
+}
+#heroleft-row-2 {
+  color: var(--textlabelcolorscharcoal, #595959);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 23.4px */
+  letter-spacing: 0.36px;
+}
+#heroleft-row-3 {
+  display: flex;
+  /* width: 711px; */
+  height: 77px;
+  padding: 15px 20px;
+  align-items: flex-end;
+  gap: 34px;
+  border-radius: 8px;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.08);
+}
+.row3_card {
+  display: flex;
+  width: 120px;
+  height: 47px;
+  align-items: center;
+  gap: 10px;
+}
+.svg-container {
+  position: relative; /* Make the container a positioning context */
+  width: 36px; /* Set the width to match the first SVG */
+  height: 37px; /* Set the height to match the first SVG */
+}
+
+.second-svg {
+  position: absolute; /* Position the second SVG absolutely */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Center both vertically and horizontally */
+}
+.row3_card_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text1 {
+  color: var(--BLACK, #2b2f34);
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 130%; /* 26px */
+  margin: 0px;
+}
+.text2 {
+  color: var(--Gray-2, #4f4f4f);
+  margin: 0px;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18.6px;
+  letter-spacing: 0.12px;
+}
+#heroleft-row-4 {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 0px 2px 40px 0px rgba(0, 0, 0, 0.12);
+}
+#heroleft-row-4 > p {
+  color: #525252;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
+  margin: 0px;
+}
+.hero-right {
+  border: 3px solid black;
+  width: 415px;
+  height: 496px;
+  flex-shrink: 0;
+  /* box-sizing: border-box; */
+  background-color: rgb(246, 220, 186);
+  display: inline-flex;
+  padding: 28px 24px 32px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+.hero-right-form {
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0px 25px 54px 0px rgba(0, 0, 0, 0.12);
+}
+
+.hero-right-form > p {
+  text-align: center;
+  font-family: ABeeZee;
+  line-height: 150%; /* 48px */
+  letter-spacing: -0.48px;
+  margin: 0px;
+}
+.hero-right-form1 {
+  display: flex;
+  width: 366px;
+  padding: 14px 6px 14px 10px;
+  align-items: center;
+  gap: 10px;
+}
+.hero-right-form1 > input {
+  border-radius: 8px;
+  background: #fafafa;
+  border: none;
+  width: 300px;
+}
+#hero-right-last {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 9px;
+}
+.hero-right-last1 {
+  width: 367px;
+  /* padding: 14px 6px 14px 16px; */
+  gap: 2px;
+  border-radius: 8px;
+  background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+}
+.hero-right-last1 > p {
+  color: var(--WHITE, #fff);
+  font-family: ABeeZee;
+  line-height: 150%; /* 27px */
+  margin: 0px !important;
+  font-size: 14px;
+}
+.hero-right-last2 {
+  width: 291px;
+}
+.hero-right-last2 > p {
+  font-family: ABeeZee;
+  line-height: 150%; /* 27px */
+  margin: 0px !important;
+  font-size: 14px;
+  text-align: center;
+}
+.Courses-Offered {
+  display: flex;
+  padding: 80px 0px 78px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 3413px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#title-sec {
+  width: 100vw;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font-family: ABeeZee;
+}
+#title-sec > p {
+  /* font-family: ABeeZee; */
+  font-size: 20px;
+  margin: 0px;
+}
+.title-sec-text1 {
+  background: var(--New, linear-gradient(277deg, #992fed 0%, #2f80ed 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title-sec-text2 {
+  color: #2f80ed;
+  font-size: 36px;
+  /* font-family: ABeeZee; */
+  line-height: 150%; /* 54px */
+  letter-spacing: -0.54px;
+  margin: 0px;
+}
+.course-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 21px;
+}
+.Sapling-Card {
+  width: 498px;
+  height: 563px;
+  background-color: #d8cbe3;
+  border-radius: 9px;
+  border: 2px solid var(--primaryskyblue, #2f80ed);
+  /* background: #FFF; */
+}
+.tag {
+    position:relative;
+    top:-25px;
+    left:25%;
+  display: inline-flex;
+  padding: 6px 15px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 18px;
+  border-radius: 7px;
+border: 2px solid #2F80ED;
+background: var(--primaryskyblue, #2F80ED);
+}
+.table1{
+   display:grid;
+}
+
+
+
+
+
