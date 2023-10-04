@@ -292,7 +292,7 @@ main {
   /* background-color: #d8cbe3; */
   border-radius: 9px;
   border: 2px solid var(--primaryskyblue, #2f80ed);
-  background: #FFF;
+  background: #fff;
   box-sizing: border-box;
 }
 .tag {
@@ -334,38 +334,36 @@ main {
 #companies {
   background-color: #ffffff;
   /* height: 794px; */
- 
 }
-#comp_logs{
-  margin:150px;
-  width: 1,224px;
-height: 306px;
-top: 323px;
-left: 108px;
-gap: 48px;
-/* background-color: #e8abab */
+#comp_logs {
+  margin: 150px;
+  width: 1, 224px;
+  height: 306px;
+  top: 323px;
+  left: 108px;
+  gap: 48px;
+  /* background-color: #e8abab */
 }
-#student-sec{
-  Width:100vw;
-Height:972px;
-/* background-color: #aed1fd; */
+#student-sec {
+  width: 100vw;
+  height: 972px;
+  /* background-color: #aed1fd; */
 }
-#student-sec>.headings>p{
+#student-sec > .headings > p {
   width: 420px;
-/* height: 94px; */
-gap: 4px;
-
+  /* height: 94px; */
+  gap: 4px;
 }
-.card1{
-  width:300px;
-  height:350px;
+.card1 {
+  width: 300px;
+  height: 350px;
   /* background-color: rgb(231, 158, 195); */
   box-sizing: border-box !important;
-  border-radius:10px ;
+  border-radius: 10px;
   box-shadow: 0px 0px 13px black;
 }
-#student-sec>.layouts{
-  display:flex !important;
-  flex-direction:row !important;
-  flex-wrap:wrap !important;
+#student-sec > .layouts {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
 }
