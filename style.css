@@ -333,7 +333,7 @@ main {
 }
 #companies {
   background-color: #ffffff;
-  height: 794px;
+  /* height: 794px; */
  
 }
 #comp_logs{
@@ -344,4 +344,15 @@ top: 323px;
 left: 108px;
 gap: 48px;
 /* background-color: #e8abab */
+}
+#student-sec{
+  Width:100vw;
+Height:972px;
+background-color: #aed1fd;
+}
+#student-sec>.headings>p{
+  width: 420px;
+/* height: 94px; */
+gap: 4px;
+
 }
