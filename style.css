@@ -8,6 +8,11 @@ header {
   flex-shrink: 0;
   box-sizing: border-box;
 }
+.sticky-it{
+  position:sticky;
+  top:0px;
+  z-index:1;
+}
 #accio-name {
   color: #012555;
   font-family: Bai Jamjuree;
@@ -39,6 +44,10 @@ header {
   font-weight: 400;
   line-height: 150%; /* 21px */
   letter-spacing: 0.28px;
+  z-index: 2;
+  position:sticky;
+  top:55px;
+  z-index:1;
 }
 #main_hero {
   display: flex;
@@ -238,10 +247,10 @@ header {
 main {
   display: flex;
   width: 100vw;
-  height: 3413px;
+  /* height: 3413px; */
   flex-direction: column;
   align-items: flex-start;
-  background: #ECF8FF;;
+  background-color:#ecf8ff;
 }
 #title-sec {
   width: 100vw;
@@ -273,6 +282,7 @@ main {
 }
 .course-card {
   display: flex;
+  flex-direction:row;
   align-items: flex-start;
   gap: 21px;
 }
